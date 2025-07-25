@@ -3,6 +3,8 @@
 
 Circuitry.ai is an open-source tool that combines computer vision and large language models to detect, analyze, and explain electronic circuit diagrams. It leverages YOLOv8 for component detection and LLaMA 3 for generating intelligent textual explanations of how the circuit works. The goal is to bridge the gap between visual schematic representations and conceptual understanding, making electronics more accessible to learners, hobbyists, and engineers alike.
 
+Link to Dataset: https://universe.roboflow.com/development-tohnm/cghd-1152
+
 How It Works:
 
 1. Component Detection:
