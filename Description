@@ -1,6 +1,4 @@
 
----
-
 ## 🧠 circuitry.ai – Understand Circuit Diagrams with AI
 
 **circuitry.ai** is an open-source tool that combines computer vision and large language models to **detect**, **analyze**, and **explain electronic circuit diagrams**.
@@ -12,7 +10,6 @@ It leverages YOLOv8 for component detection and LLaMA 3 for generating intellige
 ### ✨ Why Open Source?
 
 This project is now open source to invite the community to help solve some of the challenges and limitations I couldn’t tackle alone. By collaborating, we can expand its capabilities and make circuit interpretation smarter, faster, and more intuitive.
-
 ---
 
 ### 🚧 Planned Improvements & Contributions Welcome
@@ -26,14 +23,10 @@ These are some improvements I hope to implement with help from the community:
 * 🌐 **Deployable web version** (e.g., via Hugging Face Spaces, Replit, or Docker)
 * 📱 **Mobile-friendly interface** for use in classrooms or on the go
 
----
-
 ### 🤝 Get Involved
 
 If you're passionate about AI, computer vision, electronics, or education, your contributions are welcome. Whether it's improving the model, designing a better UI, or writing documentation—there's space for everyone.
 
 **Let's build something impactful together.**
 
----
 
-Let me know if you’d like a shorter tagline version or want this formatted for Twitter, Hugging Face, or DevPost too.
