@@ -39,9 +39,11 @@ Download a compatible LLaMA 3 model (e.g., llama3-8b.Q4_0.gguf) from:
 
 Place the .gguf file in a known directory (e.g., models/llama3/).
 
-In test.py, modify the path like below:
+In test.py, modify the paths of llama3 model and best.pt (weights of yolo model available in repo) like below:
 Edit
-gpt = GPT4All("llama3-8b.Q4_0.gguf", model_path="models/llama3/")
-
+```
+yolo_model = YOLO(r'\your\actual\path\to\weights\of\yolov8\its provided in repo\best.pt') 
+gpt_model = GPT4All(r"\your\actual\path\to\llama3\model\Meta-Llama-3-8B-Instruct.Q4_0.gguf" )
+```
 ## Improvements / contributions
 I have detected components(Yolov8) and lines(OpenCV) and created a Prompt which is given to LLM. This is not enough to make it more accurate its necessary to make a JSON file that contains all the nodes,components and not the line but which components is connected to which component. You can run the test.py and print components_data and lines_data variables to understand what i am talking about.
