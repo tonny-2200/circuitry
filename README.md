@@ -1,7 +1,7 @@
 
-Circuitry.ai – Your AI Tutor for Electronic Circuit Diagrams (web application)
+🧠 Circuitry.ai – Understand Circuit Diagrams with AI
 
-Circuitry.ai is an intelligent AI-powered tutor designed to understand and explain electronic circuit diagrams. Built to assist students, hobbyists and educators, Circuitry.ai uses computer vision and large language models to analyze circuit images and teach how they work—step by step.
+Circuitry.ai is an open-source tool that combines computer vision and large language models to detect, analyze, and explain electronic circuit diagrams. It leverages YOLOv8 for component detection and LLaMA 3 for generating intelligent textual explanations of how the circuit works. The goal is to bridge the gap between visual schematic representations and conceptual understanding, making electronics more accessible to learners, hobbyists, and engineers alike.
 
 How It Works:
 
